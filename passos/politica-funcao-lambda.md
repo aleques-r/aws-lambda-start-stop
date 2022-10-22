@@ -6,22 +6,10 @@
 
 - Clique em *Adicionar permissões* e em *Criar política em linha*;
 
-- Clique em JSON e cole o seguinte código:
+- Clique em JSON e cole o código disponível [aqui](https://github.com/aleques-r/aws-lambda-start-stop/blob/master/passos/politica.json):
 
-  - {
-        "Version": "2012-10-17",
-        "Statement": [
-            {
-                "Sid": "VisualEditor0",
-                "Effect": "Allow",
-                "Action": [
-                    "ec2:Start\*",
-                    "ec2:Stop\*",
-                ],
-                "Resource": "*"
-            }
-        ]
-
+  
+  
   
   
   
